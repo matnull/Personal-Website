@@ -23,6 +23,21 @@ h3{
 .circular{
     border-radius: 100%;
 }
-div{
+.top-container{
     background-color: #DEFCF9;
+    border: solid 5px;
+    padding: 10%;
+    background-image: url("assets/blue-polygonal-background-fade-4.png");
+    background-color: transparent;
+}
+.middle-container{
+    background-color: #3C84AB;
+    padding: 20%;
+}
+
+.bottom-container{
+    background-color: #85CDFD;
+    padding: 20%;
+    margin-bottom: 2px;
+
 }
