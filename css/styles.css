@@ -20,12 +20,7 @@ h1{
     text-align: center;
 }
 
-h3{
-    color: #567189;
-    text-align: center;
-}
-
-h2{
+h3, h2{
     color: #567189;
     text-align: center;
 }
@@ -41,10 +36,9 @@ p{
 .top-container {
     background-color: #ffffff;
     height: 100%;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("assets/blue-polygonal-background-fade-4.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +62,7 @@ p{
     color: #ffffff;
     font-size: 32px;
     text-align: center;
-  }
+}
 
 .bottom-container{
     background-color: #d4cfcf;
@@ -76,11 +70,10 @@ p{
     margin-bottom: 2px;
     height: 30%;
 }
- 
+
 .Ribbon{
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-            
     background-color: #000000;
     position: fixed;
     top: 0;
@@ -93,7 +86,6 @@ p{
     align-items: center;
     padding-left: 10%;
 }
-    
 
 .Ribbon p {
     color: #fff;
@@ -114,6 +106,3 @@ p{
     color: #fff;
     text-decoration: none;
 }
-
-
-
