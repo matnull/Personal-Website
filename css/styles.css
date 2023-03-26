@@ -7,12 +7,7 @@ body{
     margin: 0;
     height: 100%;
     padding: 0%;
-}
-
-hr{
-    border-style: dotted none none;
-    border-color: #3E54AC;
-    width: 10%;
+    font-family: sans-serif;
 }
 
 h1{
@@ -20,13 +15,21 @@ h1{
     text-align: center;
 }
 
-h3, h2{
-    color: #567189;
+h3{
     text-align: center;
+}
+
+h2{
+    color: #000000;
+    line-height: 8px;
 }
 
 p{
     text-align: center;
+}
+
+dd{
+    font-size: 14px;
 }
 
 .circular{
@@ -52,16 +55,41 @@ p{
     align-items: center;
 }
 
-.middle-container{
+.wrkexp-container{
+    position: relative;
     background-color: #948e8e;
-    padding: 20%;
-    height: 30%;
+    padding: 5%;
+    height: 95%;
 }
 
-.middle-container h1 {
-    color: #ffffff;
-    font-size: 32px;
-    text-align: center;
+.wrkexp-container h1{
+    text-align: left;
+}
+
+.wrkexp-container h2 {
+    color: #000000;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bolder;
+    
+}
+
+.wrkexp-container dt{
+    font-size: 13px;
+}
+
+.wrkexp-container img{
+    position:absolute;
+    top: 2%;
+    right:2%;
+
+}
+
+.third-container{
+    background-color: #746b6b;
+    padding: 20%;
+    margin-bottom: 2px;
+    height: 30%;
 }
 
 .bottom-container{
@@ -84,7 +112,7 @@ p{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 10%;
+    padding-left: 7%;
 }
 
 .Ribbon p {
